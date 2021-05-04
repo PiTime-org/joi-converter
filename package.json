@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.15",
-    "joi": "^17.3.0"
+    "joi": "^17.2.1"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.158",
@@ -24,7 +24,7 @@
     "test": "mocha ./dist/test"
   },
   "peerDependencies": {
-    "joi": "^17.3.0"
+    "joi": "^17.2.1"
   },
   
   "keywords": [
