@@ -1,0 +1,35 @@
+{
+  "name": "joi-converter",
+  "version": "17.2.1",
+  "description": "Converts json from and to Joi objects.",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "joi": "^17.3.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.158",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "14.14.10",
+    "mocha": "^7.1.2",
+    "typescript": "^3.9.3"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dts/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist/* && rm -rf dts/* && tsc",
+    "test": "mocha ./dist/test"
+  },
+  "peerDependencies": {
+    "joi": "^17.3.0"
+  },
+  
+  "keywords": [
+  ],
+  "directories": {
+    "test": "test"
+  }
+}
